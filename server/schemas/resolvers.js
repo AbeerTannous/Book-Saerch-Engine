@@ -1,5 +1,5 @@
-const {User,Book}= require('../models');
-const {AuthenticationError} = require('apollo-server-express');
+const {User}= require('../models');
+const {AuthenticationError} = require('apollo-server-errors');
 const { signToken } = require('../utils/auth');
 
 
@@ -67,22 +67,6 @@ Mutation:{
 
    
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
