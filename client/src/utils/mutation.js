@@ -36,7 +36,7 @@ export const SAVE_BOOK = gql`
         image
         description
         title
-        link
+        
       }
     }
   }
@@ -51,12 +51,12 @@ export const REMOVE_BOOK = gql`
       username
       email
       savedBooks{
-        authers
+        authors
         bookId
         discription
         image
         title
-        link
+        
        }
 
 

@@ -10,6 +10,7 @@ Query:{
      if (context.user){
         const userData = await User.findOne({ _id: context.user._id })
         .select('-__v -password')
+        console.log("Me-Userdata",userData)
         return userData;
      }
      throw new AuthenticationError('Not logged in');
@@ -42,6 +43,7 @@ Mutation:{
     },
 
     saveBook:async(parent,{bookData}, context)=>{
+      console.log("Savebook",bookData)
         if (context.user){
             const updatedUser = await User.findOneAndUpdate({ _id: context.user._id },
                 { $push: { savedBooks: bookData } },
