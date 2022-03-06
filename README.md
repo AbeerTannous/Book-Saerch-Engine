@@ -10,11 +10,11 @@ Google Books API search engine built in MERN Stack.  users can sign up and login
 
 # Application screen shot
 
-![screenshot](assets\images\Screenshot(12).png)
+![](assets\images\Screenshot(12).png?raw=true)
 
-![screenshot](assets\images\Screenshot(13).png)
+![](assets\images\Screenshot(13).png?raw=true)
 
-![screenshot](assets\images\Screenshot(14).png)
+![](assets\images\Screenshot(14).png?raw=true)
 
 
 
